@@ -70,13 +70,24 @@ export const NavBar = () => {
               >
                 Projects
               </Nav.Link>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1F-3BVo6-qtvsFZ4kNd7ajn0uuTIY--k1/view?usp=sharing"
+                className={
+                  activeLink === "project"
+                    ? "active navbar-link cv"
+                    : "navbar-link cv"
+                }
+              >
+                Resume
+              </a>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.linkedin.com/in/al-shaharia-4a3352154/"
+                  href="https://www.linkedin.com/in/al-shaharia-ifty-16736a239/"
                 >
                   <img src={navIcon1} alt="" />
                 </a>

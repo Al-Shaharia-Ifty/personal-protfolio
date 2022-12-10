@@ -19,7 +19,7 @@ export const Footer = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/al-shaharia-4a3352154/"
+                href="https://www.linkedin.com/in/al-shaharia-ifty-16736a239/"
               >
                 <img src={navIcon1} alt="" />
               </a>
