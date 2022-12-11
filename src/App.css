@@ -311,9 +311,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
-  animation: updown 3s linear infinite;
+  /* animation: updown 3s linear infinite; */
+  border-radius: 10px;
 }
-@keyframes updown {
+/* @keyframes updown {
   0% {
     transform: translateY(-20px);
   }
@@ -323,7 +324,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   100% {
     transform: translateY(-20px);
   }
-}
+} */
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
@@ -389,11 +390,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 72%;
+  width: 80%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
+}
+@media only screen and (max-width: 425px) {
+  .project p{
+    width: 100%;
+  }
+  .project .nav.nav-pills {
+    width: 100%;
+  }
 }
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
