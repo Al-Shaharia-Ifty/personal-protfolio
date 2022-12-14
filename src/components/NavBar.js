@@ -42,7 +42,7 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link
-                href="#home"
+                href="/#home"
                 className={
                   activeLink === "home" ? "active navbar-link" : "navbar-link"
                 }
@@ -51,7 +51,7 @@ export const NavBar = () => {
                 Home
               </Nav.Link>
               {/* <Nav.Link
-                href="#skills"
+                href="/#skills"
                 className={
                   activeLink === "skills" ? "active navbar-link" : "navbar-link"
                 }
@@ -60,7 +60,7 @@ export const NavBar = () => {
                 Skills
               </Nav.Link> */}
               <Nav.Link
-                href="#project"
+                href="/#project"
                 className={
                   activeLink === "project"
                     ? "active navbar-link"
@@ -70,8 +70,16 @@ export const NavBar = () => {
               >
                 Projects
               </Nav.Link>
+              <Nav.Link
+                href={"/blogs"}
+                className={activeLink ? "active navbar-link" : "navbar-link"}
+                onClick={() => onUpdateActiveLink("project")}
+              >
+                Blogs
+              </Nav.Link>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://drive.google.com/file/d/1F-3BVo6-qtvsFZ4kNd7ajn0uuTIY--k1/view?usp=sharing"
                 className={
                   activeLink === "project"
@@ -106,7 +114,7 @@ export const NavBar = () => {
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
-              <HashLink to="#connect">
+              <HashLink to="/#connect">
                 <button className="vvd">
                   <span>Let's Connect</span>
                 </button>

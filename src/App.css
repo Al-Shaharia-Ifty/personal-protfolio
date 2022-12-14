@@ -254,6 +254,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+/* blog page */
+.blog-body {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+}
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -373,7 +387,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background:linear-gradient(to left, #581c87 0%, #1e3a8a 50%,#111827 100%); ;
+  background: linear-gradient(to left, #581c87 0%, #1e3a8a 50%, #111827 100%);
 }
 .project h2 {
   font-size: 45px;
@@ -397,7 +411,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 @media only screen and (max-width: 425px) {
-  .project p{
+  .project p {
     width: 100%;
   }
   .project .nav.nav-pills {
@@ -507,7 +521,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Projects Css ************/
 .contact {
   background-image: url(/src/assets/img/contact-us.jpg);
-  background-size:     cover;   
+  background-size: cover;
   padding: 60px 0 60px 0;
 }
 .contact img {
