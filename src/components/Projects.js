@@ -23,42 +23,47 @@ export const Projects = () => {
       description1: "Front-end: React.js, tailwind CSS, Firebase ",
       description2: "Back-end: MongoDB, Node.js ",
       imgUrl: projImg1,
-      link: "https://doctors-portal-d4b95.web.app/",
+      link: "/first-project",
     },
     {
       title: "Online Business",
       description1: "Front-end: React.js, tailwind CSS, Firebase ",
       description2: "Back-end: MongoDB, Node.js ",
       imgUrl: projImg3,
-      link: "https://puredigimate.web.app/",
+      // link: "https://puredigimate.web.app/",
+      link: "/seconde-project",
     },
     {
       title: "Brick Business",
       description1: "Front-end: React.js, tailwind CSS, Firebase ",
       description2: "Back-end: MongoDB, Node.js ",
       imgUrl: projImg2,
-      link: "https://gadget-land.web.app/",
+      // link: "https://gadget-land.web.app/",
+      link: "/third-project",
     },
     {
       title: "Genius Car Service",
       description1: "Front-end: React.js, Bootstrap, Firebase ",
       description2: "Back-end: MongoDB, Node.js ",
       imgUrl: projImg4,
-      link: "https://genius-car-services-67edf.web.app/",
+      // link: "https://genius-car-services-67edf.web.app/",
+      link: "/fourth-project",
     },
     {
       title: "Online Shop",
       description1: "Front-end: React.js, Bootstrap, Firebase ",
       description2: "Back-end: MongoDB, Node.js ",
       imgUrl: reaImg4,
-      link: "https://magical-crisp-65a671.netlify.app/",
+      // link: "https://magical-crisp-65a671.netlify.app/",
+      link: "/fifth-project",
     },
     {
       title: "Event Management",
       description1: "Front-end: React.js, Tailwind CSS, Firebase ",
       description2: "Back-end: MongoDB, Node.js ",
       imgUrl: reaImg5,
-      link: "https://sprightly-fox-8e5c98.netlify.app/",
+      // link: "https://sprightly-fox-8e5c98.netlify.app/",
+      link: "/sixth-project",
     },
   ];
   const reactProjects = [
@@ -122,7 +127,9 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                  I already worked on may projects. Some websites are not interesting and some websites are very beautiful. Some of them are given below.
+                    I already worked on may projects. Some websites are not
+                    interesting and some websites are very beautiful. Some of
+                    them are given below.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav

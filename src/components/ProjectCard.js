@@ -1,4 +1,5 @@
 import { Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export const ProjectCard = ({
   title,
@@ -9,7 +10,7 @@ export const ProjectCard = ({
 }) => {
   return (
     <Col size={12} sm={6} md={4}>
-      <a target="_blank" rel="noreferrer" href={link}>
+      <Link to={link}>
         <div className="proj-imgbx">
           <img src={imgUrl} alt="" />
           <div className="proj-txtx">
@@ -19,7 +20,7 @@ export const ProjectCard = ({
             <span>{description2}</span>
           </div>
         </div>
-      </a>
+      </Link>
     </Col>
   );
 };
